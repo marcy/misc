@@ -13,5 +13,5 @@ is_initial = (not File.exist?(file_name))
 f=open(file_name, "a+")
 message = ARGV.first
 f.puts "= #{date}" if is_initial
-f.puts "(#{time}) #{message}"
+f.puts "((*#{time}*)) #{message}"
 f.close
