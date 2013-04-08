@@ -1,4 +1,5 @@
 ;; -*- mode: emacs-lisp; -*-
+;; http://codr.cc/42CA9D561D
 
 (define-key global-map "\C-h" 'delete-backward-char)
 (global-set-key "\C-ch" 'help-for-help)
